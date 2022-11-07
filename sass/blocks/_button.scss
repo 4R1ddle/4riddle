@@ -1,0 +1,29 @@
+.button {
+	display: inline-block;
+	height: 58px;
+	padding-left: 37px;
+	padding-right: 37px;
+	border-radius: 29px;
+	background-color: $accent-color;
+
+	line-height: 58px;
+	font-weight: 700;
+	color: #fff;
+	transition: background-color 0.2s ease-in;
+
+	&:hover {
+		background-color: $accent-color-hover;
+	}
+
+	&--white {
+		background-color: #fff;
+		color: $black-color;
+		transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+		&:hover {
+			background-color: $black-color;
+			color: #fff;
+		}
+	}
+
+}
